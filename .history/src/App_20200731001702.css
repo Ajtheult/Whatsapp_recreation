@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.move_logo_of_whatsapp {
+  margin-left: 20px;
+  pointer-events: none;
+}
+
+.move_top_nav_icons_down {
+  margin-top: 3px;
+}
+
+.width_of_dropdown {
+  width: 300px;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}

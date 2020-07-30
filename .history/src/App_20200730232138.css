@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: solid 5px #ccc;
+}
+.icon1,
+.icon2 {
+  display: round;
+  width: 30px;
+  height: 15px;
+  background: black;
+
+  float: left;
+  border-radius: 50%;
+}

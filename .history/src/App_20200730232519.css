@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: solid 5px #ccc;
+  border-radius: 50%;
+}
+.icon1,
+.icon2 {
+  display: round;
+  width: 50px;
+  height: 50px;
+  background: black;
+  margin-right: -10px;
+  margin-top: 110px;
+  float: right;
+  border-radius: 50%;
+}
