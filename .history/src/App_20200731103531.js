@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={ChatMenu} />
           <Route exact path="/status" component={StatusMenu} />
-          <Route exact path="/calls" component={CallMenu} />
+          <Route exact path="/call" component={CallMenu} />
         </Switch>
       </div>
     </Router>

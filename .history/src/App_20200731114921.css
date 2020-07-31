@@ -27,7 +27,7 @@
 
 .move_message_icon_in_chat_menu {
   margin-right: 10px;
-  margin-top: 330px;
+  margin-top: 390px;
   /* I will have to adjust the top after inserting the grid on top */
 }
 
@@ -57,19 +57,16 @@
 }
 
 .contact_menu_messages {
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 0px;
-  color: gray;
 }
 
 .contact_name_cm {
   font-weight: bold;
-  font-size: 14px;
 }
 
 .cm_time {
-  margin-top: 13px;
+  margin-top: 10px;
   font-weight: bold;
   font-size: 10px;
-  color: gray;
 }

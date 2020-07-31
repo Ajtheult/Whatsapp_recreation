@@ -15,7 +15,7 @@ const ChatMenu = () => {
       img:
         "https://cdn.pixabay.com/photo/2016/12/07/09/32/white-male-1889033_960_720.jpg",
       name: "😂Reegen AKA Heindrick😂",
-      message: "✓ Joh vhet bruh🤣I need...",
+      message: "✓ Joh vhet bruh.🤣🤣 I need ...",
       time: "17:36",
     },
   ]);

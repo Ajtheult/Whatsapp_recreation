@@ -6,16 +6,16 @@ const ChatMenu = () => {
   const [contacts] = useState([
     {
       img:
-        "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "🎹Asaph🎹",
+        "https://cdn.pixabay.com/photo/2016/04/25/18/07/halcyon-1352522_1280.jpg",
+      name: "Asaph Franks 🎹",
       message: "✓ So yeah thats why I've...",
       time: "17:36",
     },
     {
       img:
-        "https://cdn.pixabay.com/photo/2016/12/07/09/32/white-male-1889033_960_720.jpg",
-      name: "😂Reegen AKA Heindrick😂",
-      message: "✓ Joh vhet bruh🤣I need...",
+        "https://cdn.pixabay.com/photo/2016/04/25/18/07/halcyon-1352522_1280.jpg",
+      name: "😂😂😂Reegen AKA Heindrick😂😂😂",
+      message: "✓ Joh vhet bruh. I need ...",
       time: "17:36",
     },
   ]);

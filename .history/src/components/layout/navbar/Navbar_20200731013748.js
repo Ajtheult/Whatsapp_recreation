@@ -64,17 +64,17 @@ export class Navbar extends Component {
                 <i className="fas fa-camera move_camera_icon" />
               </li>
               <li className="tab">
-                <Link to="/">
+                <Link to="#chat ">
                   <h6>Chat</h6>
                 </Link>
               </li>
               <li className="tab">
-                <Link to="/status">
+                <Link to="#status">
                   <h6>Status • </h6>
                 </Link>
               </li>
               <li className="tab">
-                <Link to="/calls">
+                <Link to="#calls">
                   <h6>Calls</h6>
                 </Link>
               </li>

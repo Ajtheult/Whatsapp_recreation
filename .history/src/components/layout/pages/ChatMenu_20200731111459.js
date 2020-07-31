@@ -6,17 +6,9 @@ const ChatMenu = () => {
   const [contacts] = useState([
     {
       img:
-        "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "🎹Asaph🎹",
-      message: "✓ So yeah thats why I've...",
-      time: "17:36",
-    },
-    {
-      img:
-        "https://cdn.pixabay.com/photo/2016/12/07/09/32/white-male-1889033_960_720.jpg",
-      name: "😂Reegen AKA Heindrick😂",
-      message: "✓ Joh vhet bruh🤣I need...",
-      time: "17:36",
+        "https://cdn.pixabay.com/photo/2016/04/25/18/07/halcyon-1352522_1280.jpg",
+      name: "name",
+      message: "messages",
     },
   ]);
   return (
@@ -34,11 +26,11 @@ const ChatMenu = () => {
                 alt={contact.name}
               />
             </div>
-            <div className="col s7 chat_menu_text">
-              <h6 className="contact_name_cm">{contact.name}</h6>
-              <p className="contact_menu_messages">{contact.message}</p>
+            <div className="col s6 chat_menu_text">
+              <h6>{contact.name}</h6>
+              <p>{contact.message}</p>
             </div>
-            <div className="col s2 cm_time">{contact.time}</div>
+            <div className="col s3">10</div>
             <div className="divider decrease_height" />
           </div>
         ))}
