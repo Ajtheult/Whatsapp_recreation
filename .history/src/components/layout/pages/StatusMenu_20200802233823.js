@@ -67,31 +67,19 @@ const ChatMenu = () => {
             <div className="divider decrease_height" />
           </div>
         ))}
-        <div className="divider increase_height_status">
-          <h6 className="move_recent_updates">Viewed updates</h6>
-        </div>
-        <div className="col s3">
-          <img
-            className="viewed_status"
-            src="https://images.unsplash.com/photo-1516410529446-2c777cb7366d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-            alt="img"
-          />
-        </div>
-        <div className="col s9 chat_menu_text">
-          <h6 className="contact_name_cm">Aaren🕵</h6>
-          <p className="contact_menu_messages">Yesterday, 16:41</p>
-        </div>
       </div>
 
       {/* Bottom of page */}
 
       <Link to="#write">
-        <button className="btn-floating btn-small waves-effect waves-light light-green right move_message_icon_in_status_menu_small pulse">
-          <i className="fas fa-pen" />
+        <button className="btn-floating btn-small waves-effect waves-light right move_message_icon_in_status_menu_small">
+          <h2 className="change_icon_colour">
+            <i className="fas fa-pen" />
+          </h2>
         </button>
       </Link>
       <Link to="#post_status">
-        <button className="btn-floating btn-large waves-effect waves-light light-green right move_message_icon_in_status_menu_big pulse">
+        <button className="btn-floating btn-large waves-effect waves-light teal right move_message_icon_in_status_menu_big">
           <i className="fas fa-camera" />
         </button>
       </Link>

@@ -73,7 +73,7 @@ const ChatMenu = () => {
         <div className="col s3">
           <img
             className="viewed_status"
-            src="https://images.unsplash.com/photo-1516410529446-2c777cb7366d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src="https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/116815126_941703772973894_1282831551764897661_n.jpg?_nc_cat=104&_nc_sid=730e14&_nc_ohc=PdanjokX3WAAX-aZ7Mh&_nc_ht=scontent.fcpt7-1.fna&oh=e4110a85dcb85dc01d33ea69ccd0943f&oe=5F4D48A8"
             alt="img"
           />
         </div>
@@ -86,12 +86,12 @@ const ChatMenu = () => {
       {/* Bottom of page */}
 
       <Link to="#write">
-        <button className="btn-floating btn-small waves-effect waves-light light-green right move_message_icon_in_status_menu_small pulse">
+        <button className="btn-floating btn-small waves-effect waves-light green right move_message_icon_in_status_menu_small pulse">
           <i className="fas fa-pen" />
         </button>
       </Link>
       <Link to="#post_status">
-        <button className="btn-floating btn-large waves-effect waves-light light-green right move_message_icon_in_status_menu_big pulse">
+        <button className="btn-floating btn-large waves-effect waves-light teal right move_message_icon_in_status_menu_big pulse">
           <i className="fas fa-camera" />
         </button>
       </Link>

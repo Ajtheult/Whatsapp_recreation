@@ -6,7 +6,7 @@ const ChatMenu = () => {
   const [contacts] = useState([
     {
       img:
-        "https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/106269353_921949158282689_2965407331543375300_n.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=LtsdmLQqirkAX8xdEQS&_nc_ht=scontent.fcpt7-1.fna&oh=8d6c4155d2143c2f96fc2819c02f45ea&oe=5F4C0589",
+        "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
       name: "Asaph🎹",
       message: "So yeah thats why I've been...",
       time: "17:36",
@@ -77,7 +77,7 @@ const ChatMenu = () => {
       <h6 className="move_message_icon_in_chat_menu">
         <p className="make_archive_bold">Archived (13)</p>
         <Link to="#contacts">
-          <button className="btn-floating btn-large waves-effect waves-light teal right move_contact_icon_abit_up pulse">
+          <button className="btn-floating btn-large waves-effect waves-light teal right move_contact_icon_abit_up">
             <i className="material-icons">mode_comment</i>
           </button>
         </Link>

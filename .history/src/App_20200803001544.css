@@ -33,11 +33,11 @@
 
 .move_message_icon_in_status_menu_small {
   margin-right: 25px;
-  margin-top: -85px;
+  margin-top: -70px;
   /* I will have to adjust the top after inserting the grid on top */
 }
 .move_message_icon_in_status_menu_big {
-  margin-top: -35px;
+  margin-top: -50px;
   margin-right: 12px;
   /* I will have to adjust the top after inserting the grid on top */
 }
@@ -60,7 +60,7 @@
 
 .decrease_height {
   margin-top: -20px;
-  width: 75.5%;
+  width: 78%;
   margin-left: 80px;
 }
 

@@ -6,7 +6,7 @@ const ChatMenu = () => {
   const [contacts] = useState([
     {
       img:
-        "https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/106269353_921949158282689_2965407331543375300_n.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=LtsdmLQqirkAX8xdEQS&_nc_ht=scontent.fcpt7-1.fna&oh=8d6c4155d2143c2f96fc2819c02f45ea&oe=5F4C0589",
+        "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
       name: "Asaph🎹",
       message: "So yeah thats why I've been...",
       time: "17:36",
@@ -27,14 +27,14 @@ const ChatMenu = () => {
     },
     {
       img:
-        "https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/116914428_942788286198776_8862159367019768073_n.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_ohc=xCaClC3c-s4AX-cYpKL&_nc_ht=scontent.fcpt7-1.fna&oh=d9c9f24a21faefe58886e688cf40ba21&oe=5F4AF1A6",
+        "https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-0/s600x600/107619681_1126504761058586_4957419531204681762_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_ohc=gmpWBtyERZkAX9CX8h7&_nc_ht=scontent.fcpt7-1.fna&_nc_tp=7&oh=de75bc08e4e9b62f46e6281751d846d1&oe=5F4E6C3C",
       name: "Nala🍵🐸",
       message: "lol it's our inside meme and...",
       time: "14:53",
     },
     {
       img:
-        "https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/116721653_942788282865443_1702655637001663442_n.jpg?_nc_cat=105&_nc_sid=8bfeb9&_nc_ohc=8Vv0jOKlAsIAX_PSI0r&_nc_ht=scontent.fcpt7-1.fna&oh=0cef53b374c2ba60ec66516ae3fb1cf7&oe=5F4AD372",
+        "https://cdn.pixabay.com/photo/2018/04/26/07/03/pretty-3351294_1280.png",
       name: "Kayleen🤠",
       message: "When last did you see your...",
       time: "14:26",
@@ -77,7 +77,7 @@ const ChatMenu = () => {
       <h6 className="move_message_icon_in_chat_menu">
         <p className="make_archive_bold">Archived (13)</p>
         <Link to="#contacts">
-          <button className="btn-floating btn-large waves-effect waves-light teal right move_contact_icon_abit_up pulse">
+          <button className="btn-floating btn-large waves-effect waves-light teal right move_contact_icon_abit_up">
             <i className="material-icons">mode_comment</i>
           </button>
         </Link>

@@ -26,25 +26,25 @@
 }
 
 .move_message_icon_in_chat_menu {
-  margin-left: -30px;
-  margin-top: 45px;
+  margin-left: 20px;
+  margin-top: 50px;
   /* I will have to adjust the top after inserting the grid on top */
 }
 
 .move_message_icon_in_status_menu_small {
-  margin-right: 25px;
-  margin-top: -85px;
+  margin-right: 10px;
+  margin-top: 22px;
   /* I will have to adjust the top after inserting the grid on top */
 }
 .move_message_icon_in_status_menu_big {
-  margin-top: -35px;
-  margin-right: 12px;
+  margin-right: -40px;
+  margin-top: 60px;
   /* I will have to adjust the top after inserting the grid on top */
 }
 
 .move_contact_icon_abit_up {
-  margin-right: 15px;
-  margin-top: -55px;
+  margin-right: 5px;
+  margin-top: -50px;
 }
 
 .make_archive_bold {
@@ -60,7 +60,7 @@
 
 .decrease_height {
   margin-top: -20px;
-  width: 75.5%;
+  width: 78%;
   margin-left: 80px;
 }
 
@@ -74,8 +74,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  padding: 1px;
-  border: 4px solid rgb(68, 214, 68);
+  border: 3px solid rgb(68, 214, 68);
   margin-top: 5px;
 }
 
@@ -83,17 +82,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  padding: 1px;
-  border: 4px dashed rgb(68, 214, 68);
-  margin-top: 5px;
-}
-
-.viewed_status {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  padding: 1px;
-  border: 4px solid grey;
+  border: 3px dashed rgb(68, 214, 68);
   margin-top: 5px;
 }
 
