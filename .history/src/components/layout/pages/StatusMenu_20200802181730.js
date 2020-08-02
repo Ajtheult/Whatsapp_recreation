@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
 import "../../../App.css";
-const ChatMenu = () => {
+const StatusMenu = () => {
   const [contacts] = useState([
     {
       img:
@@ -64,10 +64,8 @@ const ChatMenu = () => {
             </div>
             <div className="col s7 chat_menu_text">
               <h6 className="contact_name_cm">{contact.name}</h6>
-              <p className="contact_menu_messages">{contact.message}</p>
+              <p className="contact_menu_messages">{contact.time}</p>
             </div>
-            <div className="col s2 cm_time">{contact.time}</div>
-            <div className="divider decrease_height" />
           </div>
         ))}
       </div>
@@ -86,4 +84,4 @@ const ChatMenu = () => {
   );
 };
 
-export default ChatMenu;
+export default StatusMenu;

@@ -58,14 +58,6 @@
   width: 100%;
 }
 
-.my_profile_picture_status {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 3px solid rgb(68, 214, 68);
-  margin-top: 5px;
-}
-
 .move_recent_updates {
   text-align: left;
   margin-top: -1px;

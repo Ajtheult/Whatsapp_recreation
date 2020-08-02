@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
 import "../../../App.css";
-const ChatMenu = () => {
+const StatusMenu = () => {
   const [contacts] = useState([
     {
       img:
@@ -86,4 +86,4 @@ const ChatMenu = () => {
   );
 };
 
-export default ChatMenu;
+export default StatusMenu;

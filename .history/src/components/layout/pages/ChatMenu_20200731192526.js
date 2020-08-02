@@ -20,6 +20,13 @@ const ChatMenu = () => {
     },
     {
       img:
+        "https://cdn.pixabay.com/photo/2016/12/07/09/32/white-male-1889033_960_720.jpg",
+      name: "Aaren🕵",
+      message: 'And she was like "lol, you"...',
+      time: "17:21",
+    },
+    {
+      img:
         "https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_960_720.png",
       name: "Kim💜🍃",
       message: "✓ Boogie Woogie really is...",

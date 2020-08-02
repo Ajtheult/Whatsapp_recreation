@@ -7,7 +7,7 @@ const ChatMenu = () => {
     {
       img:
         "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "Asaph🎹",
+      name: "🎹Asaph🎹",
       message: "So yeah thats why I've been...",
       time: "17:36",
     },

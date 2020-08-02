@@ -7,7 +7,7 @@ const ChatMenu = () => {
     {
       img:
         "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "Asaph🎹",
+      name: "🎹Asaph🎹",
       message: "So yeah thats why I've been...",
       time: "17:36",
     },
@@ -68,6 +68,27 @@ const ChatMenu = () => {
             </div>
             <div className="col s2 cm_time">{contact.time}</div>
             <div className="divider decrease_height" />
+            <a
+              class="waves-effect waves-light btn modal-trigger"
+              href="#modal1"
+            >
+              Modal
+            </a>
+
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="#!"
+                  class="modal-close waves-effect waves-green btn-flat"
+                >
+                  Agree
+                </a>
+              </div>
+            </div>
           </div>
         ))}
       </div>

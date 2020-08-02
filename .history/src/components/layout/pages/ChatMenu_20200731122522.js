@@ -7,16 +7,16 @@ const ChatMenu = () => {
     {
       img:
         "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "Asaph🎹",
-      message: "So yeah thats why I've been...",
+      name: "🎹Asaph🎹",
+      message: "✓ So yeah thats why I've...",
       time: "17:36",
     },
     {
       img:
         "https://cdn.pixabay.com/photo/2016/12/07/09/32/white-male-1889033_960_720.jpg",
       name: "😂Reegen AKA Heindrick😂",
-      message: "✓ Joh vhet bruh🤣I need a...",
-      time: "17:21",
+      message: "✓ Joh vhet bruh🤣I need...",
+      time: "17:36",
     },
     {
       img:
@@ -29,22 +29,8 @@ const ChatMenu = () => {
       img:
         "https://cdn.pixabay.com/photo/2017/01/27/16/09/people-2013447_960_720.jpg",
       name: "Nala🍵🐸",
-      message: "lol it's our inside meme and...",
+      message: "✓ I mean it's almost the...",
       time: "14:53",
-    },
-    {
-      img:
-        "https://cdn.pixabay.com/photo/2018/04/26/07/03/pretty-3351294_1280.png",
-      name: "Kayleen🤠",
-      message: "When last did you see your...",
-      time: "14:26",
-    },
-    {
-      img:
-        "https://cdn.pixabay.com/photo/2017/08/27/22/29/abstract-2687792_960_720.png",
-      name: "Trinity Worship Team🎶",
-      message: "🎹Asaph🎹: So is that the...",
-      time: "11:30",
     },
   ]);
   return (

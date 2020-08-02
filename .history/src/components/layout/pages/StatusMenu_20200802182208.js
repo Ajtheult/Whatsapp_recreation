@@ -62,11 +62,11 @@ const ChatMenu = () => {
                 alt={contact.name}
               />
             </div>
-            <div className="col s7 chat_menu_text">
+            <div className="col s9 chat_menu_text">
               <h6 className="contact_name_cm">{contact.name}</h6>
-              <p className="contact_menu_messages">{contact.message}</p>
+              <p className="contact_menu_messages">{contact.time}</p>
             </div>
-            <div className="col s2 cm_time">{contact.time}</div>
+
             <div className="divider decrease_height" />
           </div>
         ))}

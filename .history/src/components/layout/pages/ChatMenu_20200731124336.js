@@ -7,7 +7,7 @@ const ChatMenu = () => {
     {
       img:
         "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "Asaph🎹",
+      name: "🎹Asaph🎹",
       message: "So yeah thats why I've been...",
       time: "17:36",
     },
@@ -31,13 +31,6 @@ const ChatMenu = () => {
       name: "Nala🍵🐸",
       message: "lol it's our inside meme and...",
       time: "14:53",
-    },
-    {
-      img:
-        "https://cdn.pixabay.com/photo/2018/04/26/07/03/pretty-3351294_1280.png",
-      name: "Kayleen🤠",
-      message: "When last did you see your...",
-      time: "14:26",
     },
     {
       img:

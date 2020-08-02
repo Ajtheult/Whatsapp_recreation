@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState } from "react";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
@@ -6,53 +7,50 @@ const ChatMenu = () => {
   const [contacts] = useState([
     {
       img:
-        "https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg",
-      name: "Asaph🎹",
-      message: "So yeah thats why I've been...",
-      time: "17:36",
-    },
-    {
-      img:
         "https://cdn.pixabay.com/photo/2016/12/07/09/32/white-male-1889033_960_720.jpg",
       name: "😂Reegen AKA Heindrick😂",
-      message: "✓ Joh vhet bruh🤣I need a...",
-      time: "17:21",
+      time: "20 minutes ago",
     },
     {
       img:
         "https://cdn.pixabay.com/photo/2016/11/09/23/16/music-1813100_960_720.png",
       name: "Kim💜🍃",
-      message: "✓ Boogie Woogie really is...",
-      time: "15:39",
+      time: "54 minutes ago",
     },
     {
       img:
         "https://cdn.pixabay.com/photo/2017/01/27/16/09/people-2013447_960_720.jpg",
       name: "Nala🍵🐸",
-      message: "lol it's our inside meme and...",
-      time: "14:53",
+      time: "Today, 11:53",
     },
     {
       img:
         "https://cdn.pixabay.com/photo/2018/04/26/07/03/pretty-3351294_1280.png",
       name: "Kayleen🤠",
-      message: "When last did you see your...",
-      time: "14:26",
-    },
-    {
-      img:
-        "https://cdn.pixabay.com/photo/2017/08/27/22/29/abstract-2687792_960_720.png",
-      name: "Trinity Worship Team🎶",
-      message: "🎹Asaph🎹: So is that the...",
-      time: "11:30",
+      time: "Yesterday, 08:13",
     },
   ]);
   return (
     <div>
       <Navbar />
-
-      {/* Chats-Try to implement state */}
       <div className="row">
+        <div className="col s3">
+          <img
+            className="profile_pictures"
+            src="https://cdn.pixabay.com/photo/2015/05/29/22/46/music-789935_960_720.jpg"
+            alt="img"
+          />
+        </div>
+        <div className="col s9 chat_menu_text">
+          <h6 className="contact_name_cm">Asaph🎹</h6>
+          <p className="contact_menu_messages">7 minutes ago</p>
+        </div>
+        <div className="divider decrease_height" />
+        <div className="divider increase_height_status">
+          <h6 className="move_recent_updates">Recent updates</h6>
+        </div>
+        {/* Chats-Try to implement state */}
+
         {contacts.map((contact, idx) => (
           <div key={idx}>
             <div className="col s3">
@@ -62,11 +60,11 @@ const ChatMenu = () => {
                 alt={contact.name}
               />
             </div>
-            <div className="col s7 chat_menu_text">
+            <div className="col s9 chat_menu_text">
               <h6 className="contact_name_cm">{contact.name}</h6>
-              <p className="contact_menu_messages">{contact.message}</p>
+              <p className="contact_menu_messages">{contact.time}</p>
             </div>
-            <div className="col s2 cm_time">{contact.time}</div>
+
             <div className="divider decrease_height" />
           </div>
         ))}
