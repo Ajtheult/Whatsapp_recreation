@@ -2,7 +2,7 @@ import React from "react";
 import ChatMenu from "./components/layout/pages/ChatMenu";
 import StatusMenu from "./components/layout/pages/StatusMenu";
 import CallMenu from "./components/layout/pages/CallMenu";
-import LandingPage from "./components/layout/pages/preapp/LandingPage";
+import LandingPage from "./components/layout/pages/LandingPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
