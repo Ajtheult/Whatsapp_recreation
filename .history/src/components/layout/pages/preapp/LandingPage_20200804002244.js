@@ -36,12 +36,8 @@ export class LandingPage extends Component {
             <h5>
               This react app was mainly created for mobile use, but is not
               intended to function exactly as the original Whatsapp application.{" "}
-              <br /> <br />{" "}
-              <h5>
-                <b>PC users</b>
-              </h5>
-              For the best experience drag window of your browser to the minimum
-              width.
+              <br /> <br /> For the best experience drag window of your browser
+              to the minimum width.
               <br /> <br /> If you understand this press "<b>
                 launch app
               </b>". <br /> If you don't then press "<b>I don't understand</b>".
