@@ -43,7 +43,7 @@ const ChatMenu = () => {
       img:
         "https://cdn.pixabay.com/photo/2017/08/27/22/29/abstract-2687792_960_720.png",
       name: "Trinity Worship Team🎶",
-      message: "🎹Asaph🎹: So is that the song we are...",
+      message: "🎹Asaph🎹: So is that the song we are going...",
       time: "11:30",
     },
   ]);
