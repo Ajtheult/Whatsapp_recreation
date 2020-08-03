@@ -1,0 +1,296 @@
+.App {
+  text-align: center;
+}
+
+.move_logo_of_whatsapp {
+  margin-left: 20px;
+  pointer-events: none;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.move_camera_icon {
+  margin-top: 9px;
+  margin-left: 10px;
+}
+
+.move_top_nav_icons_down {
+  margin-top: 20px;
+  pointer-events: none;
+}
+
+.width_of_dropdown {
+  width: 300px;
+}
+
+.disabled_btn_bottom {
+  pointer-events: none;
+}
+
+.move_message_icon_in_chat_menu {
+  margin-left: -30px;
+  margin-top: 105px;
+  /* I will have to adjust the top after inserting the grid on top */
+}
+
+.move_message_icon_in_status_menu_small {
+  margin-right: 30px;
+  margin-top: -40px;
+  color: blue;
+  pointer-events: none;
+  opacity: 0.5;
+  /* I will have to adjust the top after inserting the grid on top */
+}
+.move_message_icon_in_status_menu_big {
+  margin-top: 10px;
+  margin-right: 15px;
+  pointer-events: none;
+  opacity: 0.5;
+  /* I will have to adjust the top after inserting the grid on top */
+}
+
+.move_contact_icon_abit_up {
+  margin-right: 15px;
+  margin-top: -55px;
+}
+
+.make_archive_bold {
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.profile_pictures {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.decrease_height {
+  margin-top: -20px;
+  width: 75.5%;
+  margin-left: 80px;
+}
+
+.increase_height_status {
+  margin-top: 1.5px;
+  height: 20px;
+  width: 100%;
+}
+
+.my_profile_picture_status {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 4px solid rgb(68, 214, 68);
+  margin-top: 5px;
+}
+
+.profile_picture_status {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 4px dashed rgb(68, 214, 68);
+  margin-top: 5px;
+}
+
+.viewed_status {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 1px;
+  border: 4px solid grey;
+  margin-top: 5px;
+}
+
+.move_recent_updates {
+  text-align: left;
+  margin-top: -1px;
+  margin-left: 10px;
+}
+.chat_menu_text {
+  text-align: left;
+}
+
+.contact_menu_messages {
+  font-size: 14px;
+  margin-top: 0px;
+  color: gray;
+}
+
+.contact_name_cm {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cm_time {
+  margin-top: 13px;
+  font-weight: bold;
+  font-size: 10px;
+  color: gray;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+div.admin-bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+
+  div.admin-bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+}
+
+.move_this_modal {
+  margin-right: 30px;
+  margin-top: 400px;
+}
+
+.move_ellipsis {
+  color: teal;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.move_contact_icon_abit_up_call {
+  margin-right: 15px;
+  margin-top: 115px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.icons_call_menu {
+  color: teal;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+a {
+  color: teal;
+  -webkit-tap-highlight-color: white;
+}
+
+.bottom_icons {
+  pointer-events: none;
+}
+
+nav {
+  line-height: 30px;
+}
+
+.contact_number {
+  text-align: left;
+  margin-top: 10px;
+  line-height: 10px;
+}
+
+.move_arrow {
+  margin-top: 18px;
+  font-size: 25px;
+  color: white;
+}
+
+.color_of_contactnav {
+  color: white;
+}
+
+.contact_number {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.contact_number_bottom {
+  font-size: 14px;
+}
+
+.move_icons {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.row {
+  margin-bottom: -0px;
+}
+
+.move_group_contact {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contact_menu_icons {
+  margin-bottom: 5px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.whatsapp_voice_call_title {
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.move_name_whatsapp {
+  margin-top: 10px;
+}
+
+.move_name_callnav {
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+
+.btn_to_exit_voice_call {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.voicecall_footer {
+  margin-top: 18px;
+}
+
+.move_call_icons_up {
+  margin-bottom: 20px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.voice_call_hangup {
+  margin-top: 400px;
+}
