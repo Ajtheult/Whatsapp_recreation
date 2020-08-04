@@ -309,7 +309,7 @@ nav {
 }
 
 .whatsapp_video_call_title {
-  font-size: 30px;
+  font-size: 18px;
   margin-right: 50px;
   color: white;
 }
@@ -329,7 +329,6 @@ nav {
 
 .colour_of_whatsapp_icon {
   color: white;
-  font-size: 40px;
 }
 
 .videocall_footer {
@@ -339,10 +338,9 @@ nav {
 .move_call_icons_up {
   margin-bottom: 20px;
   font-size: 30px;
-  margin-top: 10px;
-  color: white;
+  margin-top: 5px;
 }
 
 .video_call_hangup {
-  margin-top: 220px;
+  margin-top: 250px;
 }

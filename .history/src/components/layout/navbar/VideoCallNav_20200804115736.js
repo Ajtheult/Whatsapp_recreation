@@ -12,7 +12,7 @@ export class VideoCallNav extends Component {
               <Link to="/calls">
                 <i className="fas fa-chevron-down left btn_to_exit_video_call"></i>
               </Link>
-              <i className="fab fa-whatsapp colour_of_whatsapp_icon" />{" "}
+              <i className="fab fa-whatsapp" />{" "}
               <span className="whatsapp_video_call_title">
                 {" "}
                 WHATSAPP VOICE CALL

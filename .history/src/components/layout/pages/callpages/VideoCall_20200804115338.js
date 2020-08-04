@@ -24,13 +24,11 @@ export class VideoCall extends Component {
         <footer className=" voicecall_footer">
           <div className="row">
             <div className="col s4">
-              <span className="material-icons  move_call_icons_up">
-                flip_camera_ios
-              </span>
+              <i className="fas fa-volume-up move_call_icons_up"></i>
             </div>
             <div className="col s4">
               {" "}
-              <i className="fas fa-video-slash move_call_icons_up video_icon_call"></i>
+              <i class="fas fa-video-slash move_call_icons_up video_icon_call"></i>
             </div>
             <div className="col s4">
               <i className="fas fa-microphone-slash move_call_icons_up"></i>

@@ -339,10 +339,10 @@ nav {
 .move_call_icons_up {
   margin-bottom: 20px;
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: -5px;
   color: white;
 }
 
 .video_call_hangup {
-  margin-top: 220px;
+  margin-top: 250px;
 }

@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
 export class VideoCallNav extends Component {
   render() {
     return (
@@ -10,9 +9,9 @@ export class VideoCallNav extends Component {
           <div className="row ">
             <div className="col s12 move_name_whatsapp_videocall">
               <Link to="/calls">
-                <i className="fas fa-chevron-down left btn_to_exit_video_call"></i>
+                <i className="fas fa-chevron-down left btn_to_exit_voice_call"></i>
               </Link>
-              <i className="fab fa-whatsapp colour_of_whatsapp_icon" />{" "}
+              <i className="fab fa-whatsapp" />{" "}
               <span className="whatsapp_video_call_title">
                 {" "}
                 WHATSAPP VOICE CALL
