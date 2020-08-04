@@ -10,7 +10,7 @@ export class VideoCall extends Component {
 
         <div className="bg-color">
           <img
-            src="https://images.unsplash.com/photo-1452721226468-f95fb66ebf83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
+            src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
             className="bg"
             alt="bg"
           />
@@ -21,14 +21,14 @@ export class VideoCall extends Component {
           </button>
         </Link>
 
-        <footer className=" voicecall_footer">
+        <footer className="page-footer teal voicecall_footer">
           <div className="row">
             <div className="col s4">
               <i className="fas fa-volume-up move_call_icons_up"></i>
             </div>
             <div className="col s4">
               {" "}
-              <i class="fas fa-video-slash move_call_icons_up video_icon_call"></i>
+              <i className="fas fa-video move_call_icons_up video_icon_call"></i>
             </div>
             <div className="col s4">
               <i className="fas fa-microphone-slash move_call_icons_up"></i>

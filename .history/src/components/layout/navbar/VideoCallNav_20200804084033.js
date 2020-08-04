@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-export class PhoneCallNav extends Component {
+export class VideoCallNav extends Component {
   render() {
     return (
       <div>
@@ -19,7 +19,7 @@ export class PhoneCallNav extends Component {
             </div>
             <div className="col s12 move_name_callnav">
               <h3>Nala🍵🐸</h3>
-              <h5>CALLING</h5>
+              <h5>CALLING...</h5>
             </div>
           </div>
         </nav>
@@ -28,4 +28,4 @@ export class PhoneCallNav extends Component {
   }
 }
 
-export default PhoneCallNav;
+export default VideoCallNav;

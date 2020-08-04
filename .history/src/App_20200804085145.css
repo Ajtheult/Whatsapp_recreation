@@ -300,9 +300,6 @@ nav {
 }
 
 .profile_picture_videocall {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }

@@ -44,7 +44,7 @@ const CallMenu = () => {
               <p className="contact_menu_messages">{contact.time}</p>
             </div>
             <div className="col s2 icons_call_menu">
-              <Link to="/video-call">
+              <Link to="#video-call">
                 <i className="fas fa-video"></i>
               </Link>
             </div>
